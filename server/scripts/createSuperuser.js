@@ -10,8 +10,8 @@ const createSuperuser = async () => {
     
     const superuser = new User({
       name: 'Super User',
-      email: 'choudharyu2003@gmail.com',
-      password: '/;p0okMJU7YGVFR4ESZ'
+      email: 'example@example.com',
+      password: 'example_password'
     });
 
     await superuser.save();
